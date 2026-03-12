@@ -26,3 +26,4 @@ if __name__ == '__main__':
 # source venv/bin/activate
 # python manage.py makemigrations
 # python manage.py migrate
+# python manage.py startapp product

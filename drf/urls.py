@@ -23,6 +23,8 @@ urlpatterns = [
 
     path('hello/', hello),
 
-    path("", include("productcrud.urls"))
+    path("", include("productcrud.urls")),
+
+    path("drfmanual/", include("productDrfManual.urls"))
 
 ]
