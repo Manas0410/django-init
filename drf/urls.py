@@ -25,6 +25,9 @@ urlpatterns = [
 
     path("", include("productcrud.urls")),
 
-    path("drfmanual/", include("productDrfManual.urls"))
+    path("drfmanual/", include("productDrfManual.urls")),
+
+    path("drfviewset/", include("productDrfViewset.urls"))
+
 
 ]
